@@ -32,7 +32,7 @@ Priority
 ```
  
 4. Запушить структуру багрепорта на внешний репозиторий
-- `git add .`
+- `git add bug_report.txt`
 - `git commit -m "add bug_report.txt"` ;` 
 - `git push`
 
@@ -41,8 +41,7 @@ Priority
 - `git merge Bug_Reports`
 
 6. Запушить main на внешний репозиторий
-- `git add .`
-- `git commit -m "merge Bug_reports to main"`
+
 - `git push`
 
 7. В ветке CheckLists набросать структуру чек листа
@@ -59,12 +58,15 @@ Result
 ```
 
 8. Запушить структуру на внешний репозиторий
-- `git add .`
+- `git add checklist.txt`
 - `git commit -m "add checklist.txt"`
 - `git push`
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
- - `перейти во внешний репозиторий, нажать Pull Request - add checklist.txt into main from CheckLists `
+ - перейти во внешний репозиторий, нажать:
+- `Compare & pull request`
+- `Create pull request`
+
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 - `git checkout main`
